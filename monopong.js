@@ -295,7 +295,7 @@ function draw(playarea) { //DRAW FRAME
                 ctx.fillText("OR USE LEFT/RIGHT KEYS TO MOVE", playarea.x0, playarea.y0 + (0.38 * playarea.R));
 
                 ctx.font = fontTitle;
-                ctx.fillText("MONOPONG", playarea.x0, playarea.y0 - (0.28 * playarea.R));
+                // ctx.fillText("MONOPONG", playarea.x0, playarea.y0 - (0.28 * playarea.R));
                 ctx.font = fontMedium;
                 ctx.fillText(VERSION, playarea.x0, playarea.y0 - (0.14 * playarea.R));
             }
