@@ -287,7 +287,7 @@ function draw(playarea) { //DRAW FRAME
             ctx.textAlign = "center";
 
             ctx.font = fontMedium;
-            ctx.fillText("TOUCH/ENTER TO START", playarea.x0, playarea.y0 + (0.18 * playarea.R));
+            ctx.fillText("TOUCH TO START", playarea.x0, playarea.y0 + (0.18 * playarea.R));
 
             if (!playarea.gameOver) {
                 ctx.font = fontSmall;
@@ -320,7 +320,7 @@ function draw(playarea) { //DRAW FRAME
         ctx.textAlign = "center";
 
         ctx.font = fontMedium;
-        ctx.fillText("TOUCH/ENTER TO START", playarea.x0, playarea.y0 + (0.18 * playarea.R));
+        ctx.fillText("TOUCH TO START", playarea.x0, playarea.y0 + (0.18 * playarea.R));
 
         if (playarea.pauseTimerActive) { //If unpause timer has started
             ctx.textAlign = "center";
